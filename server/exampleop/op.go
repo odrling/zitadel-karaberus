@@ -23,7 +23,7 @@ const (
 func init() {
 	storage.RegisterClients(
 		storage.NativeClient("native"),
-		storage.WebClient("web", "secret", "http://127.0.0.1:8888/api/oidc/callback", "http://localhost:8888/api/oidc/callback"),
+		storage.WebClient("web", "secret", "http://127.0.0.1:8888/api/oidc/callback", "http://localhost:8888/api/oidc/callback", "http://127.0.0.1:5173/api/oidc/callback", "http://localhost:5173/api/oidc/callback"),
 		storage.WebClient("api", "secret"),
 	)
 }

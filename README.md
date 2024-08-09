@@ -19,3 +19,8 @@ export KARABERUS_OIDC_GROUPS_CLAIM=groups
 export KARABERUS_OIDC_ADMIN_GROUP=admin
 export KARABERUS_OIDC_JWT_SIGN_KEY="$(openssl rand -hex 32)"
 ```
+
+When using the UI dev server you should also add this variable:
+```
+export KARABERUS_LISTEN_BASE_URL=http://localhost:5173
+```

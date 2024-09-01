@@ -9,7 +9,7 @@ require (
 	github.com/gorilla/securecookie v1.1.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zitadel/logging v0.6.0
-	github.com/zitadel/oidc/v3 v3.27.0
+	github.com/zitadel/oidc/v3 v3.28.2
 	golang.org/x/text v0.17.0
 )
 

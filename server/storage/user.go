@@ -40,7 +40,7 @@ func NewUserStore(issuer string) UserStore {
 		users: map[string]*User{
 			"id1": {
 				ID:                "id1",
-				Username:          "test",
+				Username:          "admin",
 				Password:          "verysecure",
 				FirstName:         "Test",
 				LastName:          "User",
@@ -54,7 +54,7 @@ func NewUserStore(issuer string) UserStore {
 			},
 			"id2": {
 				ID:                "id2",
-				Username:          "test-user2",
+				Username:          "user",
 				Password:          "verysecure",
 				FirstName:         "Test",
 				LastName:          "User2",

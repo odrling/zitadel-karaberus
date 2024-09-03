@@ -533,11 +533,11 @@ func (s *Storage) GetPrivateClaimsFromScopes(ctx context.Context, userID, client
 	return s.getPrivateClaimsFromScopes(ctx, userID, clientID, scopes)
 }
 
-func (s *Storage) getPrivateClaimsFromScopes(ctx context.Context, userID, clientID string, scopes []string) (claims map[string]any, err error) {
+func (s *Storage) getPrivateClaimsFromScopes(ctx context.Context, userID string, clientID string, scopes []string) (claims map[string]any, err error) {
 	for _, scope := range scopes {
 		switch scope {
 		case groupsScope:
-			claims = appendClaim(claims, GroupsClaim, groupsClaim(clientID))
+			claims = appendClaim(claims, GroupsClaim, groupsClaim(false))
 		}
 	}
 	return claims, nil
@@ -656,7 +656,7 @@ func (s *Storage) setUserinfo(ctx context.Context, userInfo *oidc.UserInfo, user
 			userInfo.Email = user.Email
 			userInfo.EmailVerified = oidc.Bool(user.EmailVerified)
 			// you can also have a custom scope and assert public or custom claims based on that
-			userInfo.AppendClaims(GroupsClaim, groupsClaim(clientID))
+			userInfo.AppendClaims(GroupsClaim, groupsClaim(user.IsAdmin))
 		case oidc.ScopeProfile:
 			userInfo.PreferredUsername = user.Username
 			userInfo.Name = user.FirstName + " " + user.LastName
@@ -668,7 +668,7 @@ func (s *Storage) setUserinfo(ctx context.Context, userInfo *oidc.UserInfo, user
 			userInfo.PhoneNumberVerified = user.PhoneVerified
 		case groupsScope:
 			// you can also have a custom scope and assert public or custom claims based on that
-			userInfo.AppendClaims(GroupsClaim, groupsClaim(clientID))
+			userInfo.AppendClaims(GroupsClaim, groupsClaim(user.IsAdmin))
 		}
 	}
 	return nil
@@ -783,8 +783,12 @@ func getInfoFromRequest(req op.TokenRequest) (clientID string, authTime time.Tim
 }
 
 // groupsClaim demonstrates how to return custom claims based on provided information
-func groupsClaim(clientID string) []string {
-	return []string{"admin"}
+func groupsClaim(isAdmin bool) []string {
+	if isAdmin {
+		return []string{"admin"}
+	} else {
+		return []string{}
+	}
 }
 
 func appendClaim(claims map[string]any, claim string, value any) map[string]any {

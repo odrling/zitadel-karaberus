@@ -7,7 +7,7 @@ go run github.com/odrling/zitadel-karaberus/server@master
 ```
 
 This will start the server on port 9998.
-Username is `admin` or `user` and password `verysecure`.
+Username is `admin` or `user`.
 
 Example configuration for karaberus:
 ```

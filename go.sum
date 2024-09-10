@@ -50,6 +50,8 @@ github.com/zitadel/oidc/v3 v3.28.2 h1:poJmUjjJhgSNgfzyVtArnnAlXhXCpefsvEV36rUwM9
 github.com/zitadel/oidc/v3 v3.28.2/go.mod h1:WmDFu3dZ9YNKrIoZkmxjGG8QyUR4PbbhsVVSY+rpojM=
 github.com/zitadel/oidc/v3 v3.29.0 h1:pzpELMr2TM2AzGsDVJ9TRQvNVoiEfda6NUeuL0y6R5g=
 github.com/zitadel/oidc/v3 v3.29.0/go.mod h1:8TCcN+ClFcWq0DIQilzp0pssdA+8TC5rZ6wzNozrdG8=
+github.com/zitadel/oidc/v3 v3.29.1 h1:zriEqPK+q/G2qo911tTgh7lnzwowzOUWduWYHVDfaq8=
+github.com/zitadel/oidc/v3 v3.29.1/go.mod h1:+I5BgvGO5C2ZJrQRjV34EjkyA7P3GXyYGZgXI8Sdw18=
 github.com/zitadel/schema v1.3.0 h1:kQ9W9tvIwZICCKWcMvCEweXET1OcOyGEuFbHs4o5kg0=
 github.com/zitadel/schema v1.3.0/go.mod h1:NptN6mkBDFvERUCvZHlvWmmME+gmZ44xzwRXwhzsbtc=
 go.opentelemetry.io/otel v1.28.0 h1:/SqNcYk+idO0CxKEUOtKQClMK/MimZihKYMruSMViUo=
@@ -68,6 +70,8 @@ golang.org/x/crypto v0.25.0 h1:ypSNr+bnYL2YhwoMt2zPxHFmbAN1KZs/njMG3hxUp30=
 golang.org/x/crypto v0.25.0/go.mod h1:T+wALwcMOSE0kXgUAnPAHqTLW+XHgcELELW8VaDgm/M=
 golang.org/x/oauth2 v0.22.0 h1:BzDx2FehcG7jJwgWLELCdmLuxk2i+x9UDpSiss2u0ZA=
 golang.org/x/oauth2 v0.22.0/go.mod h1:XYTD2NtWslqkgxebSiOHnXEap4TF09sJSc7H1sXbhtI=
+golang.org/x/oauth2 v0.23.0 h1:PbgcYx2W7i4LvjJWEbf0ngHV6qJYr86PkAV3bXdLEbs=
+golang.org/x/oauth2 v0.23.0/go.mod h1:XYTD2NtWslqkgxebSiOHnXEap4TF09sJSc7H1sXbhtI=
 golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.22.0 h1:RI27ohtqKCnwULzJLqkv897zojh5/DwS/ENaMzUOaWI=
 golang.org/x/sys v0.22.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=

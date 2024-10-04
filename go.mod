@@ -10,7 +10,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zitadel/logging v0.6.1
 	github.com/zitadel/oidc/v3 v3.30.1
-	golang.org/x/text v0.18.0
+	golang.org/x/text v0.19.0
 )
 
 require (

@@ -200,5 +200,8 @@ func (d *deviceLogin) confirmHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, "Device authorization %s. You can now return to the device", action)
+	_, err = fmt.Fprintf(w, "Device authorization %s. You can now return to the device", action)
+	if err != nil {
+		panic(err)
+	}
 }

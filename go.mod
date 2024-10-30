@@ -9,12 +9,12 @@ require (
 	github.com/gorilla/securecookie v1.1.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zitadel/logging v0.6.1
-	github.com/zitadel/oidc/v3 v3.30.1
+	github.com/zitadel/oidc/v3 v3.32.0
 	golang.org/x/text v0.19.0
 )
 
 require (
-	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
+	github.com/bmatcuk/doublestar/v4 v4.7.1 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/muhlemmer/gu v0.3.1 // indirect

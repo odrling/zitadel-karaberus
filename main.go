@@ -19,7 +19,7 @@ func main() {
 	if !found {
 		port = "9998"
 	}
-	issuer := fmt.Sprintf("http://%s:%s/", addr, port)
+	issuer := fmt.Sprintf("http://%s:%s", addr, port)
 
 	// the OpenIDProvider interface needs a Storage interface handling various checks and state manipulations
 	// this might be the layer for accessing your database

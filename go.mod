@@ -9,8 +9,8 @@ require (
 	github.com/gorilla/securecookie v1.1.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zitadel/logging v0.6.1
-	github.com/zitadel/oidc/v3 v3.32.1
-	golang.org/x/text v0.19.0
+	github.com/zitadel/oidc/v3 v3.33.0
+	golang.org/x/text v0.20.0
 )
 
 require (
@@ -25,6 +25,6 @@ require (
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
 	golang.org/x/crypto v0.25.0 // indirect
-	golang.org/x/oauth2 v0.23.0 // indirect
+	golang.org/x/oauth2 v0.24.0 // indirect
 	golang.org/x/sys v0.22.0 // indirect
 )

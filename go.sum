@@ -66,6 +66,8 @@ github.com/zitadel/oidc/v3 v3.32.1 h1:uE7IgQq4yJfQPXaIbvkOjOaIyb10OF1QtG1COUB/ef
 github.com/zitadel/oidc/v3 v3.32.1/go.mod h1:DyE/XClysRK/ozFaZSqlYamKVnTh4l6Ln25ihSNI03w=
 github.com/zitadel/oidc/v3 v3.33.0 h1:jAWjymx780VCSr1PpLIjGWzlfr/rB3GJEgN/UTRIk64=
 github.com/zitadel/oidc/v3 v3.33.0/go.mod h1:zkoZ1Oq6CweX3BaLrftLEGCs6YK6zDpjjVGZrP10AWU=
+github.com/zitadel/oidc/v3 v3.33.1 h1:e3w9PDV0Mh50/ZiJWtzyT0E4uxJ6RXll+hqVDnqGbTU=
+github.com/zitadel/oidc/v3 v3.33.1/go.mod h1:zkoZ1Oq6CweX3BaLrftLEGCs6YK6zDpjjVGZrP10AWU=
 github.com/zitadel/schema v1.3.0 h1:kQ9W9tvIwZICCKWcMvCEweXET1OcOyGEuFbHs4o5kg0=
 github.com/zitadel/schema v1.3.0/go.mod h1:NptN6mkBDFvERUCvZHlvWmmME+gmZ44xzwRXwhzsbtc=
 go.opentelemetry.io/otel v1.28.0 h1:/SqNcYk+idO0CxKEUOtKQClMK/MimZihKYMruSMViUo=

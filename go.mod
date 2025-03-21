@@ -1,6 +1,6 @@
 module github.com/odrling/zitadel-karaberus
 
-go 1.23.0
+go 1.23.7
 
 require (
 	github.com/go-chi/chi/v5 v5.2.1
@@ -8,7 +8,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/securecookie v1.1.2
 	github.com/sirupsen/logrus v1.9.3
-	github.com/zitadel/logging v0.6.1
+	github.com/zitadel/logging v0.6.2
 	github.com/zitadel/oidc/v3 v3.36.1
 	golang.org/x/text v0.23.0
 )

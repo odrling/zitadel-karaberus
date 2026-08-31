@@ -1,6 +1,6 @@
 module github.com/odrling/zitadel-karaberus
 
-go 1.24.2
+go 1.25.0
 
 require (
 	github.com/go-chi/chi/v5 v5.2.2
@@ -10,7 +10,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zitadel/logging v0.6.2
 	github.com/zitadel/oidc/v3 v3.36.1
-	golang.org/x/text v0.24.0
+	golang.org/x/text v0.41.0
 )
 
 require (

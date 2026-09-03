@@ -4,7 +4,7 @@ go 1.24.2
 
 require (
 	github.com/go-chi/chi/v5 v5.2.2
-	github.com/go-jose/go-jose/v4 v4.1.0
+	github.com/go-jose/go-jose/v4 v4.1.5
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/securecookie v1.1.2
 	github.com/sirupsen/logrus v1.9.3
